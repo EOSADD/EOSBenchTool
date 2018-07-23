@@ -198,7 +198,7 @@ QString CreateAccount::createNewName()
     int map_size = strlen(char_map);
     QString newName;
 
-    for (int i = 0; i < 5; ++i) {
+    for (int i = 0; i < 12; ++i) {
         int r = rand() % map_size;
         newName += char_map[r];
     }
